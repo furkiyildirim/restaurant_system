@@ -10,6 +10,5 @@ router.get('/menu/:table_id', (req, res)=>{
 })
 
 
-
 // export the router
 module.exports = router

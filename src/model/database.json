@@ -1,0 +1,42 @@
+{
+    "products": {
+        "drinks":{
+            "1": ["Coca Cola", 15],
+            "2": ["Fanta", 12],
+            "3": ["Sprite", 13],
+            "4": ["Orangina", 14]
+        },
+        "foods":{
+            "1": ["Hamburger", 15],
+            "2": ["Pizza", 12],
+            "3": ["Salad", 13],
+            "4": ["Soup", 14]
+        }
+    },
+    "orders":[
+        {
+            "queue": 1,
+            "table_id": 1,
+            "order": [
+                {
+                    "order_id": 1,
+                    "product": "Hamburger",
+                    "quantity": 1,
+                    "price": 10
+                },
+                {
+                    "order_id": 2,
+                    "product": "Hamburger",
+                    "quantity": 1,
+                    "price": 10
+                },
+                {
+                    "order_id": 1,
+                    "product": "Soup",
+                    "quantity": 1,
+                    "price": 10
+                }
+            ]
+        }
+    ]
+}

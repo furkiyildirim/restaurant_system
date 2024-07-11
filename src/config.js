@@ -1,8 +1,12 @@
 // src\config.js
 
-const configuration = {
-    port: process.env.PORT || 3000
+// server configuration parameters
+const server_configuration = {
+    port: 3000
+}
+// database configuration parameters
+const database_configuration = {
+    uri: 'mongodb://localhost:27017/restaurant_system'
 }
 
-
-module.exports = configuration
+module.exports = {server_configuration, database_configuration}
